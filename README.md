@@ -1,12 +1,12 @@
-# Userscripts
-Random scripts that may be useful
+# Introduction
+LumiNUS is NUS's learning management system. However, the layout breaks when it is placed in a viewport greater than or equal to 768px by 1050px
 
 
-# List of scripts
+> <img src="https://github.com/cheehongw/userscripts/blob/main/docs/fix-luminus-vertical-layout/broken2.png" width=20% height=20%> 
 
-| Name | Description |
-|------|-------------|
-|Fix luminus vertical layout| [LumiNUS is NUS's learning management system. However, the layout breaks when it is placed in a viewport greater than or equal to 768px by 1050px](https://github.com/cheehongw/userscripts/wiki/Fix-Luminus-Vertical-Layout)
+In this case, the offending element was this `nav-pills` element, and removing the `height: 72vh !important` attribute fixes it.
+> <img src="https://github.com/cheehongw/userscripts/blob/main/docs/fix-luminus-vertical-layout/broken3.png" width=500px>
+
 
 
 # Installation
